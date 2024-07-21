@@ -24,9 +24,7 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    to bottom right, #5C6373
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
@@ -64,7 +62,7 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: #D9D9D9;
-  --orange-yellow-crayola: #D9D9D9;
+  --orange-yellow-crayola: hsl(35, 100%, 68%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: #D9D9D9;
   --light-gray-70: #A4A5A6;
@@ -592,7 +590,13 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  border: 1px solid var(--eerie-black-2);
 }
+
+.testimonials-avatar-box > .pf {
+  border: 1px solid #D9D9D9;
+}
+
 
 .testimonials-item-title { margin-bottom: 7px; }
 
